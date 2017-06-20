@@ -1,0 +1,32 @@
+{
+  "name": "miner-pizza-www",
+  "version": "1.0.0",
+  "description": "miner-pizza web interface",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacardin/miner-pizza.git"
+  },
+  "author": "Nick Cardin <nick@cardin.email>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nacardin/miner-pizza/issues"
+  },
+  "homepage": "https://github.com/nacardin/miner-pizza#readme",
+  "dependencies": {
+    "async": "^2.4.1",
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "materialize-css": "^0.98.2",
+    "mkdirp": "^0.5.1"
+  }
+}

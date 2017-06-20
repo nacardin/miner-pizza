@@ -1,0 +1,2894 @@
+{% extends 'common/layout.html' %} {% block body %}
+
+<article class="container">
+  <header>
+    <h4>GPU Benchmarks</h4>
+  </header>
+  <div>
+    <section>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th><strong>GPU</strong></th>
+              <th><strong>RAM</strong></th>
+              <th><strong>Hashrate</strong></th>
+              <th><strong>TDP</strong></th>
+              <th><strong>App</strong></th>
+              <th><strong>OS</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>XFX R9 295X2</td>
+              <td>8 GB DDR5</td>
+              <td>1760</td>
+              <td>400 W</td>
+              <td>WOLF GPU MINER V0.4 1100/1500</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA TESLA P100</td>
+              <td>16 GB HBM MEMORY</td>
+              <td>1640</td>
+              <td>250 W</td>
+              <td>XMRMINER 0.1.0 (--LAUNCH=72X56)</td>
+              <td>UBUNTU 14.04 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RADEON PRO DUO</td>
+              <td>8 GB HBM MEMORY</td>
+              <td>1600</td>
+              <td>300 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.5</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI 295X2</td>
+              <td>8 GB DDR3</td>
+              <td>1535</td>
+              <td>530 W</td>
+              <td>CLAYMORE 9.7 9 (OVERCLOCK 1100)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD 6990 X2</td>
+              <td>4 GB DDR5</td>
+              <td>1482</td>
+              <td>560 W</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 295X2</td>
+              <td>8 GB DDR5</td>
+              <td>1450</td>
+              <td>500 W</td>
+              <td>CLAYMOREV9.6 DEFAULT CLOCK SPEED 1018GPU1250MEM</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR DEVIL 13 16GB DUAL CORE RADEON R9 390 AXR9 (8GB PER CORE)</td>
+              <td>16 GB DDR5</td>
+              <td>1450</td>
+              <td>N/A</td>
+              <td>WOLF-XMR-MINER-MASTER</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 480 8GB NITRO+ X 2 (CORE 1350MHZ, MEM 2150MHZ)</td>
+              <td>8 GB DDR5</td>
+              <td>1385</td>
+              <td>150 W</td>
+              <td>XMR-STAK-AMD</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR RED DRAGON RADEON RX 480 X2</td>
+              <td>4 GB DDR5</td>
+              <td>1266</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>2 X GPU GIGABYTE RADEON RX 480 G1 GAMING 8G (1300-1340 MHZ / 2250 MHZ,)</td>
+              <td>8 GB DDR5</td>
+              <td>1235</td>
+              <td>220 W</td>
+              <td>CLAYMORE AMD GPU MINER 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD 7990</td>
+              <td>6 GB DDR5</td>
+              <td>1143</td>
+              <td>375 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 8 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 390</td>
+              <td>8 GB DDR5</td>
+              <td>940</td>
+              <td>225 W</td>
+              <td>SGMINER-GM 5.5.5 1150/1500 MEMMOD -G2 -W8 -RI640</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI 290X GAMING</td>
+              <td>4 GB DDR5</td>
+              <td>930</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7 (1150/1375 BIOS MOD)</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX R9 390</td>
+              <td>8 GB DDR5</td>
+              <td>920</td>
+              <td>225 W</td>
+              <td>SGMINER-GM 5.5.5 1150/1500 MEMMOD -G2 -W8 -RI640</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1080TI AORUS</td>
+              <td>11 GB DDR5</td>
+              <td>900</td>
+              <td>150 W</td>
+              <td>XMR-STAK-NVIDIA, B=56, T=83</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 390</td>
+              <td>8 GB DDR5</td>
+              <td>880</td>
+              <td>220 W</td>
+              <td>CLAYMORE CRYPTONOTE 9.6. OC1150</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 NANO 1100 MHZ</td>
+              <td>4 GB HBM MEMORY</td>
+              <td>870</td>
+              <td>175 W</td>
+              <td>CLAYMORE 9.3</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>2 X HIS RADEON HD 7950</td>
+              <td>6 GB DDR5</td>
+              <td>870</td>
+              <td>400 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE R9 390X</td>
+              <td>8 GB DDR5</td>
+              <td>865</td>
+              <td>250 W</td>
+              <td>CLAYMORE 9.6B</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>FURY X</td>
+              <td>4 GB DDR5</td>
+              <td>860</td>
+              <td>375 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 290</td>
+              <td>4 GB DDR5</td>
+              <td>850</td>
+              <td>N/A</td>
+              <td>WOLFS GPU MINER THREADS 2 INTENSITY 800, 1075/1500</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480</td>
+              <td>8 GB DDR5</td>
+              <td>835</td>
+              <td>90 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6 BETA - POOL</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS DUAL RX 480</td>
+              <td>8 GB DDR5</td>
+              <td>830</td>
+              <td>78 W</td>
+              <td>XMR STAK AMD 1323/2054 SAMSUNG UBER-MIX</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 NANO 1100 MHZ</td>
+              <td>4 GB HBM MEMORY</td>
+              <td>830</td>
+              <td>175 W</td>
+              <td>SGMINER-GM-5-5-5-WINDOWS</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 480 4GB GAMING X</td>
+              <td>4 GB DDR5</td>
+              <td>825</td>
+              <td>75 W</td>
+              <td>SGMINER-GM 5.5.5/ 1316 CC/1900 MC/1500 STRAPS</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>TITAN X PASCAL</td>
+              <td>12 GB DDR5</td>
+              <td>825</td>
+              <td>189 W</td>
+              <td>XMR-STAK</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 580 ARMOR OC</td>
+              <td>8 GB DDR5</td>
+              <td>825</td>
+              <td>90 W</td>
+              <td>CLAYMORE GPU MINER/ STOCK BIOS AT 60°C</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>816</td>
+              <td>78 W</td>
+              <td>XMR STAK AMD 1322/1930 ELPIDA ETH RU TIMINGS</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 390X NITRO</td>
+              <td>8 GB DDR5</td>
+              <td>812</td>
+              <td>N/A</td>
+              <td>WOLFS MINER (2 THREADS, RAWINTENSITY 1396, WORKSIZE 8)</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9-FURY TRIXX</td>
+              <td>4 GB HBM MEMORY</td>
+              <td>806</td>
+              <td>225 W</td>
+              <td>WOLF_XMR_MINER V0.4 1100MHZ</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 390</td>
+              <td>8 GB DDR5</td>
+              <td>800</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RADEON RX 480 NITRO OC</td>
+              <td>8 GB DDR5</td>
+              <td>800</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GAMING X 480 4G</td>
+              <td>4 GB DDR5</td>
+              <td>800</td>
+              <td>135 W</td>
+              <td>SGMINER 5.5.5 1316/1900 WITH CUSTOM BIOS</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD 7990</td>
+              <td>6 GB DDR3</td>
+              <td>800</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.5 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>800</td>
+              <td>76 W</td>
+              <td>XMR STAK AMD 1333/2002 SAMSUNG UBER-MIX</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 480 NITRO OC</td>
+              <td>4 GB DDR5</td>
+              <td>791</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE RADEON R9 290 4G (1040/1250 MHZ)</td>
+              <td>4 GB DDR5</td>
+              <td>789</td>
+              <td>N/A</td>
+              <td>CLAYMORE AMD GPU MINER 9.6 </td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 290</td>
+              <td>4 GB DDR5</td>
+              <td>780</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6 @CATALYST 16.X</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 470 4GB OC REFERENCE</td>
+              <td>4 GB DDR5</td>
+              <td>778</td>
+              <td>110 W</td>
+              <td>CLAYMORE CRYPTONIGHT MINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX 470</td>
+              <td>4 GB DDR3</td>
+              <td>772</td>
+              <td>60 W</td>
+              <td>CLAYMORE CRYPTONOTE 9.6. OC1325 MOD BIOS</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX 470</td>
+              <td>4 GB DDR3</td>
+              <td>772</td>
+              <td>120 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX REFERENCE RX 480</td>
+              <td>8 GB DDR5</td>
+              <td>770</td>
+              <td>135 W</td>
+              <td>CLAYMORE CRYPTONIGHT</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1080 TI FE</td>
+              <td>11 GB DDR5</td>
+              <td>770</td>
+              <td>N/A</td>
+              <td>NVIDIA XMR STAK</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480 4G</td>
+              <td>4 GB DDR5</td>
+              <td>760</td>
+              <td>N/A</td>
+              <td>WOLF GPUMINER (FLASHED W CUSTOM BIO)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX480 - MSI GAMING X 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>760</td>
+              <td>N/A</td>
+              <td>CRYPTONIGHT 9.7 -A 4 -H 1024</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD REFERENCE RX 480</td>
+              <td>8 GB DDR3</td>
+              <td>754</td>
+              <td>120 W</td>
+              <td>CLAYMORE 9.7 + MSI AFTERBURNER: GPU/MEM/PWR = 1360MHZ/2250MHZ/+50% @77</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX480 GAMING X</td>
+              <td>4 GB DDR5</td>
+              <td>750</td>
+              <td>120 W</td>
+              <td>CLAYMORE CRYPTNOTE GPU MINER 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GAMING X RX 480 4G</td>
+              <td>4 GB DDR5</td>
+              <td>750</td>
+              <td>N/A</td>
+              <td>SGMINER 5.5.5 1316/1835 WITH 1075MV. CUSTOM BIOS WITH 1500 STRAPS</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>750</td>
+              <td>161 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470 NITRO</td>
+              <td>4 GB DDR5</td>
+              <td>747</td>
+              <td>N/A</td>
+              <td>WOLF GPU MINER V0.4</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 290X DIRECTCU II OC</td>
+              <td>4 GB DDR5</td>
+              <td>746</td>
+              <td>143 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 290X</td>
+              <td>4 GB DDR5</td>
+              <td>745</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 8 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1070</td>
+              <td>8 GB DDR5</td>
+              <td>740</td>
+              <td>150 W</td>
+              <td>CCMINER-CRYPTONIGHT</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX 480 REF</td>
+              <td>8 GB DDR5</td>
+              <td>740</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX470</td>
+              <td>4 GB DDR5</td>
+              <td>740</td>
+              <td>120 W</td>
+              <td>CLAYMORE V9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX 480 8GB</td>
+              <td>8 GB DDR5</td>
+              <td>736</td>
+              <td>115 W</td>
+              <td>OC - CLOCK AT 1500MHZ / MEM AT 2250MHZ CLAYMORE GPU MINER V9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 NANO</td>
+              <td>4 GB HBM MEMORY</td>
+              <td>732</td>
+              <td>175 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>725</td>
+              <td>60 W</td>
+              <td>CLAYMORES CRYPTONOTE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 290X</td>
+              <td>8 GB DDR5</td>
+              <td>724</td>
+              <td>N/A</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480 SAPPHIRE NITRO+ OC</td>
+              <td>4 GB DDR5</td>
+              <td>720</td>
+              <td>N/A</td>
+              <td>SGMINER-GM FLASHED BIOS</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE NITRO+ RX480 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>710</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX480 8GB</td>
+              <td>8 GB DDR5</td>
+              <td>710</td>
+              <td>225 W</td>
+              <td>CLAYMORE 9.5 @ 1306/2200</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE NITRO+ RX 480</td>
+              <td>4 GB DDR5</td>
+              <td>710</td>
+              <td>90 W</td>
+              <td>WOLF GPUMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE NITRO RX470 OC</td>
+              <td>8 GB DDR5</td>
+              <td>704</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE V9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 1070</td>
+              <td>8 GB DDR5</td>
+              <td>700</td>
+              <td>150 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 290</td>
+              <td>4 GB DDR5</td>
+              <td>700</td>
+              <td>250 W</td>
+              <td>WOLF9466/WOLF-XMR-MINER (COREFREQ 1000, MEMFREQ 1300, THREADS 1, RAWIN</td>
+              <td>DEBIAN 8 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 1070</td>
+              <td>8 GB DDR5</td>
+              <td>700</td>
+              <td>150 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE PULSE RX 570 4GB 1100/2050 -96MV</td>
+              <td>4 GB DDR5</td>
+              <td>700</td>
+              <td>90 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 290X</td>
+              <td>4 GB DDR5</td>
+              <td>697</td>
+              <td>275 W</td>
+              <td>CLAYMORE CRYPTONOTE 9.7 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE RX 570 (1400C/1900M)</td>
+              <td>4 GB DDR5</td>
+              <td>695</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE G1 RX 470 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>690</td>
+              <td>N/A</td>
+              <td>SGMINER 5.5.4-GM</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>AMD HD 6990</td>
+              <td>4 GB DDR5</td>
+              <td>676</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 470 GAMING X 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>676</td>
+              <td>621 W</td>
+              <td>SGMINER 5.5.4-GM / 6X RIG = 4056H/S @ 621W</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480 4GB NITRO</td>
+              <td>4 GB DDR5</td>
+              <td>675</td>
+              <td>N/A</td>
+              <td>WOLF V0.4</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX470</td>
+              <td>4 GB DDR5</td>
+              <td>670</td>
+              <td>85 W</td>
+              <td>WOLF-XMR-MINER-V0.4</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 290X</td>
+              <td>4 GB DDR5</td>
+              <td>667</td>
+              <td>195 W</td>
+              <td>CLAYMORE 6.1</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR RX480</td>
+              <td>4 GB DDR5</td>
+              <td>666</td>
+              <td>65 W</td>
+              <td>CLAYMORE CRYPTONOTE MINER V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 470 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>660</td>
+              <td>88 W</td>
+              <td>WOLFS // 6X RIG = 660W @ WALL</td>
+              <td>UBUNTU 16.04 x86</td>
+            </tr>
+            <tr>
+              <td>MSI ARMOR RX 470</td>
+              <td>4 GB DDR3</td>
+              <td>660</td>
+              <td>N/A</td>
+              <td>WOLF 0.4, GPU CORE@1230, MEM@2100</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 380 NITRO</td>
+              <td>2 GB DDR5</td>
+              <td>656</td>
+              <td>N/A</td>
+              <td>AMD STAK XMR - OC 1100/1645, BIOS NERD RALPH</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>651</td>
+              <td>80 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX470 NITRO</td>
+              <td>8 GB DDR5</td>
+              <td>648</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470 SAPPHIRE NITRO PLUS</td>
+              <td>4 GB DDR5</td>
+              <td>644</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 1070 OC (CLOCK @ 1974MHZ, MEM @ 4131MHZ)</td>
+              <td>8 GB DDR3</td>
+              <td>642</td>
+              <td>150 W</td>
+              <td>CCMINER-CRYPTONIGHT 2.0.2</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 470 GAMING X 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>640</td>
+              <td>86 W</td>
+              <td>WOLFS // 6X RIG = 645W @ WALL</td>
+              <td>UBUNTU 16.04 x86</td>
+            </tr>
+            <tr>
+              <td>XFX RX 480</td>
+              <td>8 GB DDR5</td>
+              <td>640</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX 480 GTR</td>
+              <td>8 GB DDR5</td>
+              <td>639</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX480 8GB(480M8BFA6)</td>
+              <td>8 GB DDR5</td>
+              <td>638</td>
+              <td>140 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 380</td>
+              <td>2 GB DDR5</td>
+              <td>637</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 480 (21260-00-20G)</td>
+              <td>8 GB DDR5</td>
+              <td>635</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI ARMOR RADEON RX580</td>
+              <td>8 GB DDR5</td>
+              <td>634</td>
+              <td>185 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 580 GAMING X 4G</td>
+              <td>4 GB DDR5</td>
+              <td>634</td>
+              <td>N/A</td>
+              <td>SGMINER 5.5.5-GM-A OVERCLOCKED GPU 1441 MEM 2000</td>
+              <td>ETHOS 1.2.0</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX TITAN X</td>
+              <td>12 GB DDR5</td>
+              <td>633</td>
+              <td>250 W</td>
+              <td>XMRMINER 0.1.0 (--LAUNCH=16X48)</td>
+              <td>UBUNTU 14.04 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX480</td>
+              <td>8 GB DDR5</td>
+              <td>627</td>
+              <td>N/A</td>
+              <td>WOLF XMR GPU MINER FINAL</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1070 STRIX OC</td>
+              <td>8 GB DDR5</td>
+              <td>625</td>
+              <td>166 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR PCS+ 7950</td>
+              <td>3 GB DDR5</td>
+              <td>624</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7 1085/1850</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RADEON RX480 STRIX OC 8GB</td>
+              <td>8 GB DDR5</td>
+              <td>620</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE </td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 980 TI</td>
+              <td>6 GB DDR5</td>
+              <td>620</td>
+              <td>165 W</td>
+              <td>CCMINER-CRYPTONIGHT-103-X64-CUDA80</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GEFORCE GTX 1070 GAMING X</td>
+              <td>8 GB DDR5</td>
+              <td>616</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT (KAUST)</td>
+              <td>UBUNTU 16.10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX 7970</td>
+              <td>3 GB DDR5</td>
+              <td>608</td>
+              <td>250 W</td>
+              <td>CLAYMORE 9.6 @ GPU 1150 MHZ / RAM 1750 MHZ</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R9 380</td>
+              <td>2 GB DDR5</td>
+              <td>600</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>RX470</td>
+              <td>4 GB DDR5</td>
+              <td>600</td>
+              <td>90 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480 NITRO</td>
+              <td>8 GB DDR5</td>
+              <td>600</td>
+              <td>100 W</td>
+              <td>XMR-STACK-AMD</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R9 380 GAMING</td>
+              <td>2 GB DDR5</td>
+              <td>598</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 FURY NITRO TRI-X</td>
+              <td>4 GB HBM MEMORY</td>
+              <td>598</td>
+              <td>240 W</td>
+              <td>CLAYMORE V9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R9 380</td>
+              <td>2 GB DDR5</td>
+              <td>598</td>
+              <td>170 W</td>
+              <td>CLAYMORE GPU 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HIS 7970 ICEQ X2</td>
+              <td>3 GB DDR5</td>
+              <td>595</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 1080 G1</td>
+              <td>8 GB DDR5</td>
+              <td>589</td>
+              <td>N/A</td>
+              <td>XMR STAK NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX RX470 4GB RSBLACK 1X6PIN</td>
+              <td>4 GB DDR5</td>
+              <td>587</td>
+              <td>79 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE PULSE RX 570 4GB STOCK</td>
+              <td>4 GB DDR5</td>
+              <td>584</td>
+              <td>100 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE REFERENCE RX 470 OC 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>580</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RADEON R9 280X DIRECTCU II</td>
+              <td>3 GB DDR5</td>
+              <td>580</td>
+              <td>250 W</td>
+              <td>CLAYMORE GPU</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 570 ITX</td>
+              <td>4 GB DDR5</td>
+              <td>580</td>
+              <td>114 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GEFORCE GTX 1060 GAMING X 6G</td>
+              <td>6 GB DDR3</td>
+              <td>579</td>
+              <td>120 W</td>
+              <td>XMRMINER 0.2.1 --LAUNCH=8X160, CLOCK 1769/2487, ~35% OF TDP (42W)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE PULSE RADEON RX 580 8GB OC</td>
+              <td>8 GB DDR5</td>
+              <td>579</td>
+              <td>N/A</td>
+              <td>SGMINER 5.5.5-GM-A</td>
+              <td>ETHOS 1.2.0</td>
+            </tr>
+            <tr>
+              <td>MSI RX 580 GAMING X 4G</td>
+              <td>4 GB DDR5</td>
+              <td>571</td>
+              <td>N/A</td>
+              <td>SGMINER 5.5.5-GM-A</td>
+              <td>ETHOS 1.2.0</td>
+            </tr>
+            <tr>
+              <td>HD 6950 X2 (CROSSFIRE)</td>
+              <td>2 GB DDR5</td>
+              <td>569</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>280X GIGABYTE</td>
+              <td>3 GB DDR5</td>
+              <td>568</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480 4 GB GIGABYTE G1 GAMING</td>
+              <td>4 GB DDR5</td>
+              <td>564</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 480</td>
+              <td>4 GB DDR3</td>
+              <td>562</td>
+              <td>105 W</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE RADEON 7950</td>
+              <td>3 GB DDR5</td>
+              <td>560</td>
+              <td>N/A</td>
+              <td>KMINER-1.4B-W64</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI 380 GAMING</td>
+              <td>2 GB DDR5</td>
+              <td>560</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>RX 480</td>
+              <td>8 GB DDR5</td>
+              <td>560</td>
+              <td>113 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RADEON HD 7970 LIGHTNING BE 3GB</td>
+              <td>3 GB DDR5</td>
+              <td>558</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 280X MATRIX</td>
+              <td>3 GB DDR5</td>
+              <td>557</td>
+              <td>N/A</td>
+              <td>CLAYMORES GPU MINER 9.7</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RADEON R9 280X TRI-X 3G D5 (1100:6400)</td>
+              <td>3 GB DDR3</td>
+              <td>556</td>
+              <td>250 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA - POOL</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RADEON RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>550</td>
+              <td>120 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS 280X DIRECTCU II TOP</td>
+              <td>3 GB DDR5</td>
+              <td>550</td>
+              <td>148 W</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 1060 G1 GAMING</td>
+              <td>6 GB DDR5</td>
+              <td>549</td>
+              <td>78 W</td>
+              <td>XMR-STAK-NVIDIA 1.4.0</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX470</td>
+              <td>4 GB DDR3</td>
+              <td>548</td>
+              <td>125 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R7970 LIGHTENING</td>
+              <td>3 GB DDR5</td>
+              <td>545</td>
+              <td>160 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470 STRIX</td>
+              <td>4 GB DDR5</td>
+              <td>544</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 380 STRIX</td>
+              <td>4 GB DDR3</td>
+              <td>541</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 980 (CUSTOM BIOS)</td>
+              <td>6 GB DDR5</td>
+              <td>541</td>
+              <td>N/A</td>
+              <td>XMR-STAK-NVIDIA</td>
+              <td>UBUNTU 16.10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 380</td>
+              <td>4 GB DDR5</td>
+              <td>540</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD 7870 OC</td>
+              <td>2 GB DDR5</td>
+              <td>540</td>
+              <td>150 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX RADEON RX470</td>
+              <td>4 GB DDR5</td>
+              <td>540</td>
+              <td>135 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1070</td>
+              <td>8 GB DDR5</td>
+              <td>540</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE RX 470 OC</td>
+              <td>4 GB DDR5</td>
+              <td>537</td>
+              <td>N/A</td>
+              <td>WOLFS GPU MINER</td>
+              <td>UBUNTU 16.04 x86</td>
+            </tr>
+            <tr>
+              <td>MSI ARMOR RX 470</td>
+              <td>4 GB DDR3</td>
+              <td>535</td>
+              <td>N/A</td>
+              <td>WOLF(GIT), GPU STOCK, NO OC, CORE@1206, MEM@1350, INDEPENDENT OF OS, M</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R7 370</td>
+              <td>2 GB DDR5</td>
+              <td>532</td>
+              <td>120 W</td>
+              <td>CLAYMORE CRYPTONOTE 9.6</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R9 280</td>
+              <td>3 GB DDR5</td>
+              <td>532</td>
+              <td>250 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 380X STRIX</td>
+              <td>4 GB DDR5</td>
+              <td>530</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 380 MSI GAMING</td>
+              <td>4 GB DDR3</td>
+              <td>530</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RX470 STRIX</td>
+              <td>4 GB DDR5</td>
+              <td>530</td>
+              <td>120 W</td>
+              <td>CLAYMORE 9.6V</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 1060 FE +200 CORE CLOCK +600 MEM CLOCK</td>
+              <td>6 GB DDR5</td>
+              <td>530</td>
+              <td>N/A</td>
+              <td>XMR-STAK-NVIDIA THEADS: 8 BLOCKS: 160 BFACTOR: 8 BSLEEP: 100</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS 280X</td>
+              <td>3 GB DDR5</td>
+              <td>528</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 380</td>
+              <td>2 GB DDR5</td>
+              <td>526</td>
+              <td>N/A</td>
+              <td>CRYPTONOTE GPU MINERO DE CLAYMORE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE DUAL-X R9-280X</td>
+              <td>3 GB DDR5</td>
+              <td>526</td>
+              <td>N/A</td>
+              <td>SGMINER-GM</td>
+              <td>UBUNTU 14.04 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR R9 380</td>
+              <td>4 GB DDR5</td>
+              <td>521</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX R9 380</td>
+              <td>4 GB DDR5</td>
+              <td>520</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 380 POWERCOLOR</td>
+              <td>4 GB DDR3</td>
+              <td>520</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 270X OC VAPOR-X</td>
+              <td>2 GB DDR3</td>
+              <td>520</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1080</td>
+              <td>8 GB DDR5</td>
+              <td>517</td>
+              <td>200 W</td>
+              <td>CCMINER</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R7 370 NITRO</td>
+              <td>4 GB DDR5</td>
+              <td>516</td>
+              <td>100 W</td>
+              <td>CLAYMORE CRYPTONOTE 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX 270X</td>
+              <td>2 GB DDR5</td>
+              <td>516</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA - POOL</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD 7970 GHZ EDITION GIGABYTE</td>
+              <td>3 GB DDR5</td>
+              <td>513</td>
+              <td>250 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE RADEON 7970</td>
+              <td>3 GB DDR5</td>
+              <td>512</td>
+              <td>195 W</td>
+              <td>NSGPUCNMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE HD 7970 OC</td>
+              <td>3 GB DDR5</td>
+              <td>505</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6</td>
+              <td>UBUNTU 15.10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 280X</td>
+              <td>3 GB DDR5</td>
+              <td>502</td>
+              <td>140 W</td>
+              <td>CLAYMORE 6.X AT 1000/1500</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>R9 280X</td>
+              <td>8 GB DDR5</td>
+              <td>500</td>
+              <td>150 W</td>
+              <td>WOLF GPUMINER</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RADEON HD 7970</td>
+              <td>3 GB DDR5</td>
+              <td>499</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER 9.6 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD 5970</td>
+              <td>2 GB DDR5</td>
+              <td>495</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6, 850/1250MHZ</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX980 TI SEA HAWK</td>
+              <td>6 GB DDR5</td>
+              <td>493</td>
+              <td>211 W</td>
+              <td>CCMINER_20140926</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI 7950 TWIN FROZR 3GB OC</td>
+              <td>3 GB DDR5</td>
+              <td>493</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR R7 370</td>
+              <td>2 GB DDR5</td>
+              <td>491</td>
+              <td>150 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>EVGA GTX 970 FTW</td>
+              <td>4 GB DDR5</td>
+              <td>485</td>
+              <td>155 W</td>
+              <td>XMR STAK NVIDIA</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA TESLA K80</td>
+              <td>12 GB DDR5</td>
+              <td>482</td>
+              <td>149 W</td>
+              <td>XMRMINER 0.1.0 (--LAUNCH=24X39)</td>
+              <td>UBUNTU 14.04 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R9 270X GAMING 2GB</td>
+              <td>2 GB DDR5</td>
+              <td>481</td>
+              <td>160 W</td>
+              <td>CLAYMORE 9.7 GUP1180 RAM 1500MHZ(6000MHZ)</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RADEON R9 280X</td>
+              <td>3 GB DDR5</td>
+              <td>470</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER V9.6 BETA - POOL CATALYST 15.12</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R7 370OC</td>
+              <td>2 GB DDR5</td>
+              <td>470</td>
+              <td>131 W</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RADEON HD 7950 DCU2 TOP 3GB</td>
+              <td>3 GB DDR5</td>
+              <td>464</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI HD 7950 TWIN FROZR OC</td>
+              <td>3 GB DDR5</td>
+              <td>460</td>
+              <td>N/A</td>
+              <td>SGMINER, UBUNTU 14.04. STILT BIOS MOD. G/M 1100/1500</td>
+              <td>UBUNTU 14.04 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR RADEON R7 370 2GB</td>
+              <td>2 GB DDR5</td>
+              <td>450</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 270X</td>
+              <td>2 GB DDR5</td>
+              <td>450</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GEFORCE GTX 1060 6GB GAMING X</td>
+              <td>6 GB DDR5</td>
+              <td>450</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT (KAUST)</td>
+              <td>UBUNTU 16.10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA QUADRO P4000</td>
+              <td>8 GB DDR3</td>
+              <td>450</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS DUAL GTX 1060 O3G</td>
+              <td>3 GB DDR5</td>
+              <td>446</td>
+              <td>N/A</td>
+              <td>CCMINER (12X81)</td>
+              <td>WINDOWS SERVER 2008 R2</td>
+            </tr>
+            <tr>
+              <td>NVIDIA TITAN X</td>
+              <td>12 GB DDR5</td>
+              <td>446</td>
+              <td>110 W</td>
+              <td>CCMINER</td>
+              <td>DEBIAN 8 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R9 270X</td>
+              <td>2 GB DDR5</td>
+              <td>445</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1060 MSI</td>
+              <td>6 GB DDR5</td>
+              <td>445</td>
+              <td>N/A</td>
+              <td>CCMINER (TSIV)</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RADEON HD 7970</td>
+              <td>3 GB DDR5</td>
+              <td>441</td>
+              <td>N/A</td>
+              <td>CLAYMORE 4.2</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE R9 280X</td>
+              <td>3 GB DDR5</td>
+              <td>440</td>
+              <td>N/A</td>
+              <td>CLAYMORE 6.1</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX 7850</td>
+              <td>1 GB DDR5</td>
+              <td>440</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE 370 2GB</td>
+              <td>2 GB DDR5</td>
+              <td>440</td>
+              <td>144 W</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GALAX GTX 980TI HOF</td>
+              <td>6 GB DDR5</td>
+              <td>440</td>
+              <td>N/A</td>
+              <td>CCMINER_20140926</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GEFORCE GTX 1060 D5 6G (REV. 1.0)</td>
+              <td>6 GB DDR5</td>
+              <td>440</td>
+              <td>120 W</td>
+              <td>XMR-STAK-NVIDIA-NOTLS</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 980 TI EXTREME</td>
+              <td>6 GB DDR5</td>
+              <td>440</td>
+              <td>242 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 270X</td>
+              <td>4 GB DDR5</td>
+              <td>438</td>
+              <td>180 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX GTX970 DC2OC 4GD5</td>
+              <td>4 GB DDR5</td>
+              <td>437</td>
+              <td>N/A</td>
+              <td>XMRMINER_0.2.1</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 970 ARMOR OC</td>
+              <td>4 GB DDR5</td>
+              <td>435</td>
+              <td>85 W</td>
+              <td>XMR-STAK-NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX 980TI OC</td>
+              <td>6 GB DDR5</td>
+              <td>430</td>
+              <td>200 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD 7850</td>
+              <td>2 GB DDR5</td>
+              <td>427</td>
+              <td>150 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE HD7950</td>
+              <td>3 GB DDR5</td>
+              <td>427</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>STRIX-GTX970-DC2OC-4GD5</td>
+              <td>4 GB DDR3</td>
+              <td>425</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD 37 370 GB</td>
+              <td>4 GB DDR5</td>
+              <td>422</td>
+              <td>N/A</td>
+              <td>CLAYMORE</td>
+              <td>DEBIAN 8 x64</td>
+            </tr>
+            <tr>
+              <td>HD 7870</td>
+              <td>2 GB DDR5</td>
+              <td>420</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 270</td>
+              <td>4 GB DDR3</td>
+              <td>418</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI 270X GAMING</td>
+              <td>2 GB DDR5</td>
+              <td>416</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R7 370 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>404</td>
+              <td>160 W</td>
+              <td>WOLF MINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX970</td>
+              <td>4 GB DDR5</td>
+              <td>403</td>
+              <td>145 W</td>
+              <td>CCMINER-CRYPTONIGHT 1.03</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SHAPPIRE RADEON 7850</td>
+              <td>2 GB DDR5</td>
+              <td>403</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER 9.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD HD7870</td>
+              <td>2 GB DDR5</td>
+              <td>401</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 480 NITRO OC</td>
+              <td>8 GB DDR5</td>
+              <td>400</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6 BETA - POOL</td>
+              <td>WINDOWS 7 x86</td>
+            </tr>
+            <tr>
+              <td>R9 280X WINDFORCE</td>
+              <td>8 GB DDR3</td>
+              <td>400</td>
+              <td>230 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 1070 (TWIN FROZR VI, STOCK)</td>
+              <td>8 GB DDR5</td>
+              <td>400</td>
+              <td>175 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA TESLA K20</td>
+              <td>5 GB DDR5</td>
+              <td>397</td>
+              <td>225 W</td>
+              <td>XMRMINER 0.1.0 (--LAUNCH=24X39)</td>
+              <td>UBUNTU 14.10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 780 TI</td>
+              <td>3 GB DDR5</td>
+              <td>396</td>
+              <td>250 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1080</td>
+              <td>8 GB DDR5</td>
+              <td>392</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R9 270</td>
+              <td>2 GB DDR5</td>
+              <td>391</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GEFORCE GTX 780 TI</td>
+              <td>3 GB DDR3</td>
+              <td>390</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT -L 8X60</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPHIRE 7950 OC</td>
+              <td>3 GB DDR5</td>
+              <td>388</td>
+              <td>N/A</td>
+              <td>CLAYMORE 6.1</td>
+              <td>WINDOWS SERVER 2008 R2</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 970</td>
+              <td>4 GB DDR5</td>
+              <td>385</td>
+              <td>103 W</td>
+              <td>CCMINER</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON 7800</td>
+              <td>2 GB DDR5</td>
+              <td>380</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6 [-A 4]</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>R9 270</td>
+              <td>2 GB DDR5</td>
+              <td>375</td>
+              <td>136 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 970 GAMING 4G</td>
+              <td>4 GB DDR5</td>
+              <td>374</td>
+              <td>N/A</td>
+              <td>CCMINER CRYPTONIGHT 20140926</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 1070</td>
+              <td>8 GB DDR5</td>
+              <td>370</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RADEON HD 7870</td>
+              <td>2 GB DDR5</td>
+              <td>370</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER 9.6 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD 6950</td>
+              <td>2 GB DDR5</td>
+              <td>366</td>
+              <td>180 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX770 LIGHTING</td>
+              <td>2 GB DDR5</td>
+              <td>352</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT BY TSIV</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1060</td>
+              <td>6 GB DDR5</td>
+              <td>350</td>
+              <td>95 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE 980</td>
+              <td>4 GB DDR5</td>
+              <td>350</td>
+              <td>166 W</td>
+              <td>CC MINER CRYPTONIGHT - 20140926</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HIS ICEQ X RADEON HD 7850</td>
+              <td>2 GB DDR5</td>
+              <td>345</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.4</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>1050TI</td>
+              <td>4 GB DDR5</td>
+              <td>343</td>
+              <td>75 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 670</td>
+              <td>2 GB DDR5</td>
+              <td>340</td>
+              <td>170 W</td>
+              <td>CCMINER-CRYPTONIGHT-103-X64-CUDA80</td>
+              <td>WINDOWS 8 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 460 OC</td>
+              <td>2 GB DDR5</td>
+              <td>339</td>
+              <td>N/A</td>
+              <td>WOLF XMR MINER 0.4</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI RX 460 2GB LP</td>
+              <td>2 GB DDR5</td>
+              <td>338</td>
+              <td>N/A</td>
+              <td>CLAYMORES CRYPTONOTE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RX460 TRIXX 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>334</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GF106</td>
+              <td>1 GB DDR5</td>
+              <td>333</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX970</td>
+              <td>3 GB DDR5</td>
+              <td>325</td>
+              <td>N/A</td>
+              <td>CCMINER V. 0.17 TVIS</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 980M</td>
+              <td>6 GB DDR5</td>
+              <td>320</td>
+              <td>N/A</td>
+              <td>CCMINER BY TSIV</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 760 GAINWARD</td>
+              <td>4 GB DDR5</td>
+              <td>320</td>
+              <td>N/A</td>
+              <td>CCMINER (TSIV)</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1050TI LAPTOP</td>
+              <td>4 GB DDR5</td>
+              <td>320</td>
+              <td>N/A</td>
+              <td>XMR-STAK-NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SAPHIRE RX 460 2GB</td>
+              <td>2 GB DDR5</td>
+              <td>311</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX RX 460 2GB</td>
+              <td>2 GB DDR5</td>
+              <td>310</td>
+              <td>60 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>SAPPHIRE RX 460 OC</td>
+              <td>2 GB DDR5</td>
+              <td>310</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RX 460 2GB (ASUS DUAL-RX460-2G)</td>
+              <td>2 GB DDR5</td>
+              <td>308</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.7 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 1050 TI</td>
+              <td>4 GB DDR3</td>
+              <td>302</td>
+              <td>60 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RX 460</td>
+              <td>2 GB DDR5</td>
+              <td>302</td>
+              <td>75 W</td>
+              <td>XMR-STAK-AMD</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 1050 TI 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>301</td>
+              <td>75 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX570</td>
+              <td>1 GB DDR5</td>
+              <td>300</td>
+              <td>225 W</td>
+              <td>WOLF GPU MINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RX 460</td>
+              <td>2 GB DDR5</td>
+              <td>300</td>
+              <td>75 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA - POOL</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>ZOTAC GEFORCE GTX 1050 2GB</td>
+              <td>2 GB DDR5</td>
+              <td>299</td>
+              <td>75 W</td>
+              <td>XMRMINER_0.2.1 (LAUNCH = 8X60)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GEFORCE GTX 1050TI WINDFORCE OC</td>
+              <td>4 GB DDR5</td>
+              <td>298</td>
+              <td>75 W</td>
+              <td>XMR-STAK-NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX480 (790MHZ, 1980MHZ)</td>
+              <td>1 GB DDR5</td>
+              <td>292</td>
+              <td>N/A</td>
+              <td>CMINER-2.0-RELEASE-X64-CUDA-8.0</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 280 TWIN FROZRIII</td>
+              <td>1 GB DDR3</td>
+              <td>290</td>
+              <td>250 W</td>
+              <td>CCMINER 2.0 X64 (APRIL 2017)</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 970 WF3 OC</td>
+              <td>4 GB DDR5</td>
+              <td>285</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GTX 960 (OC - CORE:1450MHZ MEM:1500MHZ)</td>
+              <td>2 GB DDR5</td>
+              <td>280</td>
+              <td>N/A</td>
+              <td>XMR-STACK-NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD6930</td>
+              <td>1 GB DDR5</td>
+              <td>278</td>
+              <td>230 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.3 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS STRIX GTX 750TI</td>
+              <td>2 GB DDR5</td>
+              <td>277</td>
+              <td>75 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GEFORCE GTX 750TI OC EDITION</td>
+              <td>2 GB DDR5</td>
+              <td>275</td>
+              <td>N/A</td>
+              <td>XMRMINER THREADS 48 X BLOCKS 5, CORE@1507 MEM@2961</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>PALIT GTX 770</td>
+              <td>2 GB DDR5</td>
+              <td>274</td>
+              <td>275 W</td>
+              <td>CCMINER ( 8X72)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>POWERCOLOR HD7850 1GB</td>
+              <td>1 GB DDR5</td>
+              <td>272</td>
+              <td>130 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 570</td>
+              <td>1 GB DDR5</td>
+              <td>270</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>268</td>
+              <td>120 W</td>
+              <td>MINERGATE V6.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GTX 950</td>
+              <td>2 GB DDR5</td>
+              <td>261</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GEFORCE GTX 780 TF 3GD5/OC</td>
+              <td>3 GB DDR5</td>
+              <td>257</td>
+              <td>250 W</td>
+              <td>CCMINER-CRYPTONIGHT BY TSIV</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>EVGA GTX 960 SSC</td>
+              <td>2 GB DDR5</td>
+              <td>254</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ZOTAC GTX 770</td>
+              <td>2 GB DDR5</td>
+              <td>250</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>R9 290</td>
+              <td>4 GB DDR5</td>
+              <td>250</td>
+              <td>250 W</td>
+              <td>WOLF XMR</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 960</td>
+              <td>3 GB DDR3</td>
+              <td>250</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 660</td>
+              <td>2 GB DDR5</td>
+              <td>250</td>
+              <td>130 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GTX 750 TI</td>
+              <td>2 GB DDR5</td>
+              <td>245</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GTX 960</td>
+              <td>4 GB DDR5</td>
+              <td>244</td>
+              <td>N/A</td>
+              <td>CCMINER FOR CRYPTONITE BY TSIV</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD5870</td>
+              <td>1 GB DDR5</td>
+              <td>242</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD5870</td>
+              <td>1 GB DDR5</td>
+              <td>242</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ZOTAC GTX 750 TI</td>
+              <td>2 GB DDR5</td>
+              <td>240</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 660 TI</td>
+              <td>3 GB DDR5</td>
+              <td>240</td>
+              <td>N/A</td>
+              <td>CCMINER CRYPTONIGHT 1.0 TSIV</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R6850 CYCLONE 1GD5 POWER EDITION OC</td>
+              <td>5 GB DDR5</td>
+              <td>240</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE WINDFORCE GTX 660 OC</td>
+              <td>2 GB DDR3</td>
+              <td>240</td>
+              <td>N/A</td>
+              <td>XMR-STAK-NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GEFORCE GTX 750 TI</td>
+              <td>2 GB DDR5</td>
+              <td>238</td>
+              <td>75 W</td>
+              <td>XMRMINER_0.2.1 (LAUNCH = 16X15)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>XFX 6870</td>
+              <td>1 GB DDR5</td>
+              <td>235</td>
+              <td>N/A</td>
+              <td>CLAYMORE V9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>XFX 7850</td>
+              <td>1 GB DDR5</td>
+              <td>235</td>
+              <td>120 W</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 660</td>
+              <td>2 GB DDR5</td>
+              <td>230</td>
+              <td>N/A</td>
+              <td>CCMINER 1.7.6-R10</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GEFORCE GTX680 DIRECTCUII</td>
+              <td>2 GB DDR5</td>
+              <td>228</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT-1.8.1</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD 7850</td>
+              <td>2 GB DDR5</td>
+              <td>226</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.5 BETA</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GTX 760</td>
+              <td>2 GB DDR3</td>
+              <td>222</td>
+              <td>120 W</td>
+              <td>NICEHASH1.7.3.11</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GEFORCE GTX 660</td>
+              <td>2 GB DDR5</td>
+              <td>220</td>
+              <td>N/A</td>
+              <td>CCMINER -L 16X40</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GEFORCE GTX 570</td>
+              <td>1 GB DDR5</td>
+              <td>220</td>
+              <td>70 W</td>
+              <td>MINERGATE.COM</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R7 260X</td>
+              <td>2 GB DDR5</td>
+              <td>219</td>
+              <td>115 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA - POOL</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R7 260X</td>
+              <td>1 GB DDR5</td>
+              <td>219</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7 -A 4 -H 256 -LI 1</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI N560GTX-TI TWIN FROZR II/OC</td>
+              <td>1 GB DDR5</td>
+              <td>218</td>
+              <td>N/A</td>
+              <td>XMR-STAK-NVIDIA</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 750 TI (1392/1420MHZ)</td>
+              <td>2 GB DDR5</td>
+              <td>213</td>
+              <td>N/A</td>
+              <td>CCMINER 2.0 BY TPRUVOT@GITHUB</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD 6930</td>
+              <td>1 GB DDR5</td>
+              <td>211</td>
+              <td>250 W</td>
+              <td>CLAYMORE 9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 660TI</td>
+              <td>2 GB DDR5</td>
+              <td>210</td>
+              <td>145 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 960</td>
+              <td>4 GB DDR5</td>
+              <td>210</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA QUADRO 2000M 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>210</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS R7 260X</td>
+              <td>1 GB DDR5</td>
+              <td>208</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7 -A 4 -H 352 -LI 1</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD 6950</td>
+              <td>1 GB DDR5</td>
+              <td>202</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 780</td>
+              <td>3 GB DDR5</td>
+              <td>200</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 670</td>
+              <td>2 GB DDR5</td>
+              <td>200</td>
+              <td>N/A</td>
+              <td>MINERGATE 6.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GTX 560 TI DIRECTCU II</td>
+              <td>1 GB DDR5</td>
+              <td>200</td>
+              <td>200 W</td>
+              <td>CCMINER (FORKED BY TSIV)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 660</td>
+              <td>4 GB DDR5</td>
+              <td>200</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 960</td>
+              <td>4 GB DDR5</td>
+              <td>200</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 470</td>
+              <td>1 GB DDR5</td>
+              <td>199</td>
+              <td>215 W</td>
+              <td>CCMINER CRYPTONIGHT --LAUNCH=4X84</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD 5870</td>
+              <td>1 GB DDR5</td>
+              <td>197</td>
+              <td>130 W</td>
+              <td>NSGPUCNMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD5870</td>
+              <td>1 GB DDR5</td>
+              <td>196</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 870M 3GB</td>
+              <td>3 GB DDR5</td>
+              <td>195</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>MSI R7750-PMD1GD5/OC V2</td>
+              <td>1 GB DDR5</td>
+              <td>191</td>
+              <td>60 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.6 BETA - MINERGATE POOL</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 560 TI</td>
+              <td>2 GB DDR5</td>
+              <td>190</td>
+              <td>200 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 860M OC 1232/1370MHZ</td>
+              <td>2 GB DDR5</td>
+              <td>190</td>
+              <td>60 W</td>
+              <td>XMR STAK NVIDIA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ZOTAC GTX660</td>
+              <td>2 GB DDR5</td>
+              <td>185</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GTX 560 TI ULTRA DURABLE OC</td>
+              <td>1 GB DDR5</td>
+              <td>185</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>UBUNTU 14.04 x64</td>
+            </tr>
+            <tr>
+              <td>AMD R7 360 0C</td>
+              <td>2 GB DDR5</td>
+              <td>180</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.3</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA QUADRO K2200</td>
+              <td>4 GB DDR5</td>
+              <td>180</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA K520</td>
+              <td>4 GB DDR5</td>
+              <td>180</td>
+              <td>60 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS SERVER 2008 R2</td>
+            </tr>
+            <tr>
+              <td>HIS 6790</td>
+              <td>1 GB DDR5</td>
+              <td>180</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 950M 4GB (1259/1200 MHZ)</td>
+              <td>4 GB DDR5</td>
+              <td>176</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT-2.00</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>HIS R7 250 1GB (1100/1200MHZ)</td>
+              <td>1 GB DDR5</td>
+              <td>175</td>
+              <td>65 W</td>
+              <td>CLAYMORE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GTX 560 TI</td>
+              <td>1 GB DDR5</td>
+              <td>174</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HIS ICOOLER RADEON HD 7750</td>
+              <td>1 GB DDR5</td>
+              <td>174</td>
+              <td>60 W</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GTX 960M</td>
+              <td>2 GB DDR5</td>
+              <td>167</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT BY TSIV</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD 5770</td>
+              <td>1 GB DDR5</td>
+              <td>167</td>
+              <td>N/A</td>
+              <td>CLAYMORE GPU MINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ATI RADEON HD 5770</td>
+              <td>1 GB DDR5</td>
+              <td>160</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE MINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE 470</td>
+              <td>1 GB DDR5</td>
+              <td>160</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI HD7730</td>
+              <td>1 GB DDR5</td>
+              <td>155</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GTX 750 TI GAMING</td>
+              <td>2 GB DDR5</td>
+              <td>152</td>
+              <td>60 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 950M 4GB</td>
+              <td>4 GB DDR3</td>
+              <td>146</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT-2.00</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RADEON HD 8790M (2 GB)</td>
+              <td>2 GB DDR5</td>
+              <td>144</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GEFORCE GTX 950M</td>
+              <td>4 GB DDR5</td>
+              <td>142</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT FOR NVIDIA GPUS BY TSIV</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA TESLA C2050</td>
+              <td>3 GB DDR5</td>
+              <td>142</td>
+              <td>247 W</td>
+              <td>CCMINER</td>
+              <td>UBUNTU 16.04 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS PCI-EX RADEON R7 250 1024MB GDDR5 (128BIT) (1000/4600)</td>
+              <td>1 GB DDR5</td>
+              <td>142</td>
+              <td>65 W</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.7 BETA - POOL</td>
+              <td>WINDOWS 8.1 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GT 750M</td>
+              <td>2 GB DDR3</td>
+              <td>135</td>
+              <td>N/A</td>
+              <td>XMRMINER 0.2.0</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS GEFORCE GTX850M (1084/1001 MHz)</td>
+              <td>4 GB DDR5</td>
+              <td>129</td>
+              <td>N/A</td>
+              <td>CCMINER-CRYPTONIGHT-1.8.1 </td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 960</td>
+              <td>2 GB DDR3</td>
+              <td>110</td>
+              <td>180 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD 6670</td>
+              <td>1 GB DDR5</td>
+              <td>108</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.3</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GT 730</td>
+              <td>4 GB DDR3</td>
+              <td>100</td>
+              <td>60 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GTX 745</td>
+              <td>4 GB DDR3</td>
+              <td>94</td>
+              <td>80 W</td>
+              <td>CCMINER 2014.06.14</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX650</td>
+              <td>1 GB DDR5</td>
+              <td>88</td>
+              <td>64 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD 8570M</td>
+              <td>2 GB DDR3</td>
+              <td>85</td>
+              <td>60 W</td>
+              <td>CLYMORE 9.7 (CCLOCK 750,MCLOCK 1310)</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS HD6570</td>
+              <td>1 GB DDR3</td>
+              <td>82</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AMD RADEON R7 M340</td>
+              <td>4 GB DDR5</td>
+              <td>81</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE GPU MINER V9.5</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GTX 965M</td>
+              <td>4 GB DDR5</td>
+              <td>80</td>
+              <td>60 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>HD 5570</td>
+              <td>2 GB DDR3</td>
+              <td>80</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.7</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GT 630</td>
+              <td>2 GB DDR3</td>
+              <td>76</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTS 450</td>
+              <td>1 GB DDR5</td>
+              <td>72</td>
+              <td>200 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>RADEON HD 6570</td>
+              <td>1 GB DDR3</td>
+              <td>72</td>
+              <td>N/A</td>
+              <td>CLAYMORE CRYPTONOTE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 650M</td>
+              <td>2 GB DDR5</td>
+              <td>70</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GTX 650</td>
+              <td>4 GB DDR5</td>
+              <td>66</td>
+              <td>78 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GEFORCE 930MX</td>
+              <td>2 GB DDR3</td>
+              <td>65</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GT 740M</td>
+              <td>1 GB DDR3</td>
+              <td>60</td>
+              <td>N/A</td>
+              <td>MINERGATE GUI (WITH OVERCLOCK UP TO 75)</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE 940M</td>
+              <td>4 GB DDR3</td>
+              <td>60</td>
+              <td>N/A</td>
+              <td>MINERGATE 64 BIT</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS NVIDIA GEFORCE GT 630</td>
+              <td>2 GB DDR3</td>
+              <td>58</td>
+              <td>N/A</td>
+              <td>MINERGATE GUI</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GEFORCE 920M</td>
+              <td>1 GB DDR3</td>
+              <td>55</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>SPARKLE GT 630 LOW PROFILE</td>
+              <td>2 GB DDR3</td>
+              <td>55</td>
+              <td>60 W</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>APU HD 6410D</td>
+              <td>4 GB DDR5</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>25H/S, TDP 65W, CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>APU HD 7480D</td>
+              <td>4 GB DDR5</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>25H/S, TDP65W, CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>GEFORCE GT 635</td>
+              <td>1 GB DDR5</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>HD 5450</td>
+              <td>1 GB DDR3</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>CLAYMORE 9.6</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>AMD FIREPRO W5100 4GB</td>
+              <td>4 GB DDR5</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>ASUS RX 470</td>
+              <td>4 GB DDR5</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>AMD 5750</td>
+              <td>1 GB DDR5</td>
+              <td>50</td>
+              <td>86 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GIGABYTE GT 630</td>
+              <td>1 GB DDR3</td>
+              <td>50</td>
+              <td>60 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GT 520M</td>
+              <td>1 GB DDR3</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>GT 730</td>
+              <td>1 GB DDR5</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>CCMINER</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>NVIDIA GT540M</td>
+              <td>1 GB DDR3</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>MINERGATE GUI V6.6</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+            <tr>
+              <td>AFOX GT 610</td>
+              <td>2 GB DDR3</td>
+              <td>50</td>
+              <td>60 W</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 7 x64</td>
+            </tr>
+            <tr>
+              <td>MSI GT730 2GB</td>
+              <td>2 GB DDR3</td>
+              <td>50</td>
+              <td>N/A</td>
+              <td>MINERGATE</td>
+              <td>WINDOWS 10 x64</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  <br>
+</article>
+
+{% endblock %}

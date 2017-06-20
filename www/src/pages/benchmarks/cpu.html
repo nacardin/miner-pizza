@@ -1,0 +1,2389 @@
+{% extends 'common/layout.html' %} {% block body %}
+
+<article class="container">
+  <header>
+    <h4>CPU Benchmarks</h4>
+  </header>
+  <div>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th><strong>CPU</strong></th>
+            <th><strong>Hashrate</strong></th>
+            <th><strong>TDP</strong></th>
+            <th><strong>App</strong></th>
+            <th><strong>Parameters</strong></th>
+            <th><strong>OS</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2X INTEL XEON CPU E5-2699 V4 @ 2.20GHZ</td>
+            <td>1910</td>
+            <td>145 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>-t 48</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>2X INTEL XEON E5 2699V3@2.3GHZ (2X18 CORES, 2X45MB CACHE)</td>
+            <td>1540</td>
+            <td>145 W</td>
+            <td>LUKMINER</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E7-8880 V3 @ 2.30GHZ</td>
+            <td>1500</td>
+            <td>150 W</td>
+            <td>WOLFS CPU MINER</td>
+            <td>-t27</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2699V3 X 2</td>
+            <td>1500</td>
+            <td>N/A</td>
+            <td>WOLFS CPU MINER</td>
+            <td>- t 42</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2699 V4 @ 2.20GHZ (2 PIECES)</td>
+            <td>1500</td>
+            <td>145 W</td>
+            <td>YAM</td>
+            <td>-t 48 , 1580 h/s, cpu hashes per second only allow</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>1X E7-8890 V4</td>
+            <td>1483</td>
+            <td>165 W</td>
+            <td>CPU-MULTI-MINING-BY-WOLF</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>2X E5-2697V3</td>
+            <td>1450</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>34 threads</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2658 V3 @ 2.20GHZ (TWO PIECES)</td>
+            <td>1160</td>
+            <td>105 W</td>
+            <td>YAM</td>
+            <td>-t 28</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>AMD OPTERON 6276 X2</td>
+            <td>1003</td>
+            <td>230 W</td>
+            <td>CLAYMORE 9.6</td>
+            <td>-t 25</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2648L V3 @ 1.80GHZ (2 PIECES)</td>
+            <td>991</td>
+            <td>75 W</td>
+            <td>YAM</td>
+            <td>-t 28</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2687W X 2</td>
+            <td>898</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER</td>
+            <td>threads: 20</td>
+            <td>UBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>2 X E5-2690V2</td>
+            <td>854</td>
+            <td>N/A</td>
+            <td>WOLF CPU-MINER</td>
+            <td>-t 15</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>2 X E5-2660 V3 2.60 GHZ 10 CORES 25MB CACHE</td>
+            <td>847</td>
+            <td>105 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER 3.5</td>
+            <td>-t 29</td>
+            <td>WINDOWS SERVER 2008 R2</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2620 V4 @ 2.10GHZ X2</td>
+            <td>841</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL E5-4627 V2</td>
+            <td>828</td>
+            <td>N/A</td>
+            <td>TPRUVOT CPUMINER</td>
+            <td>threads: 32</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>2X INTEL XEON E5-2660 V1 8-CORE @ 2.2 GHZ, 20 MB L3 CACHE</td>
+            <td>825</td>
+            <td>95 W</td>
+            <td>XMR-STAK-CPU 1.3.0</td>
+            <td>18 threads, sudo sysctl -w vm.nr_hugepages=128, s</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2640 V3 @ 2.60GHZ</td>
+            <td>795</td>
+            <td>144 W</td>
+            <td>WOLF CPU MINER</td>
+            <td>-t 16</td>
+            <td>UBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2640 V3 @ 2.60GHZ</td>
+            <td>760</td>
+            <td>144 W</td>
+            <td>HMAGE CPU MINER</td>
+            <td>-t 16</td>
+            <td>UBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>2XE5 2650</td>
+            <td>760</td>
+            <td>N/A</td>
+            <td>STCK-CPU-MINER</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL 5960X@4.905GHZ</td>
+            <td>745</td>
+            <td>N/A</td>
+            <td>CLAYMORE 3.4</td>
+            <td>- t10</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2699@2.2GHZ</td>
+            <td>717</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER 2.3.3</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>2X INTEL XEON E5-2660 8-CORE @ 2.2 GHZ, 20 MB L3 CACHE</td>
+            <td>660</td>
+            <td>95 W</td>
+            <td>XMR-STAK-CPU 1.3.0</td>
+            <td>16 threads, server power reading 270 watts</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>2XE5 2640</td>
+            <td>630</td>
+            <td>N/A</td>
+            <td>STAK-CPU-MINER</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>RYZEN 7 1700</td>
+            <td>615</td>
+            <td>125 W</td>
+            <td>CLAYMORE 3.5</td>
+            <td>8 threats @ 4.050</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2648L 0 @ 1.80GHZ 2X</td>
+            <td>580</td>
+            <td>70 W</td>
+            <td>YAM</td>
+            <td>-t 18</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>RYZEN 7 1700 @ 3.2GHZ</td>
+            <td>513</td>
+            <td>65 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>8 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>2X XEON E5-2660</td>
+            <td>500</td>
+            <td>80 W</td>
+            <td>MINERGATE CONSOLE MINER WINDOWS X64</td>
+            <td>minergate-cli -user your_mail --xmr 15</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>2X INTEL XEON PROCESSOR E5-2440</td>
+            <td>497</td>
+            <td>95 W</td>
+            <td>YAM</td>
+            <td>-t 16</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 5820K @ 4.4GHZ</td>
+            <td>475</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>"no-prefetch": true</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>RYZEN 5 1600 - OVERCLOCKED TO 3.7</td>
+            <td>470</td>
+            <td>70 W</td>
+            <td>CPUMINER-MULTI</td>
+            <td>-a cryptonight -t 8</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2630-2630 V4 @ 2.20GHZ (40 CORE)</td>
+            <td>450</td>
+            <td>N/A</td>
+            <td>MINERD-WOLF-07-09-14</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>E5-2603 V4</td>
+            <td>450</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS SERVER 2008 R2</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-2670</td>
+            <td>443</td>
+            <td>115 W</td>
+            <td>-a cryptonight -t 8</td>
+            <td>YAM 7V</td>
+            <td>WINDOWS 8 x64</td>
+          </tr>
+          <tr>
+            <td>RYZEN 5 1600 (STOCK)</td>
+            <td>431</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>6 threads (1,3,5,7,9,11)</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>R7 1700</td>
+            <td>427</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER 3.5</td>
+            <td>7 threats</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7 5820K @4.0 GHZ</td>
+            <td>418</td>
+            <td>140 W</td>
+            <td>XMR-STAK-CPU-NOTLS-WIN64 V1.3.1</td>
+            <td>-t 7</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL 5820K</td>
+            <td>410</td>
+            <td>140 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA - POOL</td>
+            <td>-t 7</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU D-1577</td>
+            <td>407</td>
+            <td>45 W</td>
+            <td>YAM</td>
+            <td>-t 12</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>FX 8350 OVERCLOCKED 4.2</td>
+            <td>406</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>2X XEON E5 -2670 32 THREADS</td>
+            <td>400</td>
+            <td>N/A</td>
+            <td>MINERGATE V.6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-8350</td>
+            <td>400</td>
+            <td>195 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>"cpu_thread_num" : 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 8350</td>
+            <td>399</td>
+            <td>N/A</td>
+            <td>CLAYMORE V3.5</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 8320 @4.1GHZ</td>
+            <td>399</td>
+            <td>N/A</td>
+            <td>XMR-STACK</td>
+            <td>large pages enabled in win, "use_slow_memory" : "n</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD 8350-FX @ 4300GHZ</td>
+            <td>393</td>
+            <td>213 W</td>
+            <td>LUCASJONES CPUMINER </td>
+            <td>-a cryptonight -t 8</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX8320E - 3,9GHZ OC</td>
+            <td>385</td>
+            <td>N/A</td>
+            <td>XMR-STAK</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON 2695V3 @ 2.5HZ</td>
+            <td>380</td>
+            <td>90 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-6800K</td>
+            <td>379</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>6 threads (1 prefetch)</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>E5640 X2</td>
+            <td>375</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>12 threads</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 3960</td>
+            <td>370</td>
+            <td>104 W</td>
+            <td>CLAYMORE CPU MINER 3.5</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64( MONITORED BY AIDA64)</td>
+          </tr>
+          <tr>
+            <td>4790K @ 4.7GHZ</td>
+            <td>368</td>
+            <td>88 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-3770K @4.8GHZ</td>
+            <td>365</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU-WIN64</td>
+            <td>N/A</td>
+            <td>WINDOWS 8 x64</td>
+          </tr>
+          <tr>
+            <td>I7-6800K</td>
+            <td>360</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5</td>
+            <td>7 threads</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>2X E5620</td>
+            <td>360</td>
+            <td>80 W</td>
+            <td>WOLF</td>
+            <td>-t 11</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>AMD OPTERON PROCESSOR 4171 HE</td>
+            <td>345</td>
+            <td>N/A</td>
+            <td>CPUMINER</td>
+            <td>N/A</td>
+            <td>WINDOWS SERVER 2008 R2</td>
+          </tr>
+          <tr>
+            <td>INTEL I5 -3570K</td>
+            <td>344</td>
+            <td>84 W</td>
+            <td>WOLF CPUMINER</td>
+            <td>-a cryptonight -t 3</td>
+            <td>DEBIAN 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 5820K</td>
+            <td>343</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-2430M</td>
+            <td>342</td>
+            <td>35 W</td>
+            <td>WOLF CPUMINER</td>
+            <td>-a cryptonight -t 1</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-3930K @ 3.8 GHZ</td>
+            <td>334</td>
+            <td>135 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>"cpu_thread_num" : 6 (affine_to_cpu even core numb</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-3930K @ 4.2 GHZ</td>
+            <td>330</td>
+            <td>135 W</td>
+            <td>WOLF CPUMINER</td>
+            <td>-a cryptonight -t 6</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-8150 8X3.6 GHZ @ 4.1 GHZ</td>
+            <td>330</td>
+            <td>N/A</td>
+            <td>XMR-STACK-CPU</td>
+            <td>7 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX8320-E</td>
+            <td>327</td>
+            <td>95 W</td>
+            <td>XMR-STAK</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>7700K</td>
+            <td>326</td>
+            <td>N/A</td>
+            <td>CLAYMORE 3.5</td>
+            <td>-t 4</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>E5-1650</td>
+            <td>320</td>
+            <td>N/A</td>
+            <td>WOLF MINER</td>
+            <td>-t 6</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX(TM)-8350 EIGHT-CORE PROCESSOR OC (8CPUS),~ @ 4.32GHZ</td>
+            <td>320</td>
+            <td>125 W</td>
+            <td>CRYPTONOTE CPU MINER V.3.5 BETA</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>STOCK I7 4790K</td>
+            <td>318</td>
+            <td>58 W</td>
+            <td>CLAYMORE 9.7</td>
+            <td>-t4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>FX-6300</td>
+            <td>315</td>
+            <td>95 W</td>
+            <td>CLAYMORE CPU 3.5</td>
+            <td>fast mode enabled -t 6 + overcloacked at 4.2ghz</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON-E5520 (X2) - DELL R710</td>
+            <td>315</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU V1.01</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>I7 2600K</td>
+            <td>313</td>
+            <td>65 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU 3.5B</td>
+            <td>@4.4ghz t-4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-8350</td>
+            <td>310</td>
+            <td>120 W</td>
+            <td>OPTIMINER V3.5.0</td>
+            <td>-t 7</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>I7-7700K</td>
+            <td>310</td>
+            <td>91 W</td>
+            <td>CPUMINER-OPT 3.6.1</td>
+            <td>N/A</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-6350</td>
+            <td>306</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA - POOL</td>
+            <td>-t 6</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-8320 4.0GHZ</td>
+            <td>305</td>
+            <td>125 W</td>
+            <td>LUCASJONES CPUMINER </td>
+            <td>-a cryptonight -t 7</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>DUAL INTEL XEON E5645</td>
+            <td>304</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA - POOL</td>
+            <td>12 threads</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4790K</td>
+            <td>304</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER 3.5</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-5820</td>
+            <td>295</td>
+            <td>110 W</td>
+            <td>XMR-STACK</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2660 V4 @ 2.00GHZ L3 35MB</td>
+            <td>294</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>threads: 4</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>FX 8350</td>
+            <td>290</td>
+            <td>125 W</td>
+            <td>MINERGATE-CLI</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FM 8120 @3110</td>
+            <td>284</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7-6700K @ 4 GHZ</td>
+            <td>280</td>
+            <td>N/A</td>
+            <td>CPUMINER-OPT V-3.4.6</td>
+            <td>4 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7-6820HK @ 2.70 GHZ (LAPTOP)</td>
+            <td>280</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU-NOTLS</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU D-1540 @ 2.00GHZ</td>
+            <td>275</td>
+            <td>45 W</td>
+            <td>YAM</td>
+            <td>-t 6</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 6300</td>
+            <td>275</td>
+            <td>95 W</td>
+            <td>CLAYMORE CRYPTONOTE 3.5</td>
+            <td>-t 5</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7 4770</td>
+            <td>273</td>
+            <td>84 W</td>
+            <td>CLAYMORE CPU MINER 3.5 BETA</td>
+            <td>-t 4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>XEON E5620 X2</td>
+            <td>270</td>
+            <td>N/A</td>
+            <td>CPUMINER-MULTI</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>I7 4790</td>
+            <td>261</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.4 BETA</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-6800K</td>
+            <td>260</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E3-1220 V3 @ 3.10GHZ</td>
+            <td>260</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>~8% improvement over wolf0 miner(240h/s)</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>I7-6700</td>
+            <td>260</td>
+            <td>N/A</td>
+            <td>XMR_STAK</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>4X INTEL XEON CPU E5-2650L V3 @ 1.80GHZ L3 30MB</td>
+            <td>258</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>threads: 4</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-6300 @ 4GHZ</td>
+            <td>255</td>
+            <td>95 W</td>
+            <td>MINERGATE</td>
+            <td>6 thread</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>E3 1231V3</td>
+            <td>254</td>
+            <td>80 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>-t 8</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>E3-1230V3</td>
+            <td>250</td>
+            <td>N/A</td>
+            <td>WOLF MINER</td>
+            <td>-t 4</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>I7-2600K</td>
+            <td>250</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5</td>
+            <td>4 threads</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-3770K @4.8GHZ</td>
+            <td>250</td>
+            <td>77 W</td>
+            <td>CPUMINER-MULTI-WOLF-05-30-2014</td>
+            <td>N/A</td>
+            <td>WINDOWS 8 x64</td>
+          </tr>
+          <tr>
+            <td>I7 2600K</td>
+            <td>250</td>
+            <td>15 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER</td>
+            <td>-p x -t 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL E3-1220V2</td>
+            <td>245</td>
+            <td>N/A</td>
+            <td>WOLF MINER</td>
+            <td>-t 4</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-3570K @ 4.3</td>
+            <td>245</td>
+            <td>77 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>-t 3</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E3-1220 V3 @ 3.10GHZ</td>
+            <td>242</td>
+            <td>80 W</td>
+            <td>WOLF CPUMINER-MULTI (WITH MOD &QUOT;SETPRIORITY&QUOT; FROM -14 BACK TO</td>
+            <td>- t 4</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 6100 OC 4.0 GHZ</td>
+            <td>240</td>
+            <td>95 W</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>-t 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>RYZEN 1800X</td>
+            <td>239</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX-6300</td>
+            <td>237</td>
+            <td>95 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5</td>
+            <td>4g -t 6</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-4770K</td>
+            <td>236</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>FX 8350</td>
+            <td>230</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>E3 1245</td>
+            <td>230</td>
+            <td>85 W</td>
+            <td>CLAYMORE 3.5</td>
+            <td>-t 4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E31220 @ 3.10GHZ</td>
+            <td>230</td>
+            <td>80 W</td>
+            <td>WOLF CPUMINER-MULTI (WITH MOD &QUOT;SETPRIORITY&QUOT; FROM -14 BACK TO</td>
+            <td>-t 4</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>I7 3770( NON K)</td>
+            <td>230</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E3-1231 V3</td>
+            <td>230</td>
+            <td>80 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON X5650 (OC 3.5GHZ )</td>
+            <td>226</td>
+            <td>95 W</td>
+            <td>NICEHASH 1.7.5.12</td>
+            <td>10 thread</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 4670</td>
+            <td>225</td>
+            <td>84 W</td>
+            <td>XMR-STAK</td>
+            <td>3 threads, no_prefetch: true, affine_to_cpu: true</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4790K</td>
+            <td>225</td>
+            <td>80 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>6600K</td>
+            <td>224</td>
+            <td>95 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>-march=native, gcc 6.2</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-5775C</td>
+            <td>221</td>
+            <td>65 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 6700</td>
+            <td>220</td>
+            <td>N/A</td>
+            <td>YAM M8A WIN64 HASWEL</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 8300</td>
+            <td>220</td>
+            <td>95 W</td>
+            <td>CLAYMORE 3.5</td>
+            <td>N/A</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-3570K @ 3.9 GHZ</td>
+            <td>220</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER 3.5</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-3770K</td>
+            <td>220</td>
+            <td>77 W</td>
+            <td>MINERGATE GUI LINUX 64</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-8150 8-CORE PROCESSOR 8X3.6GHZ UP TO 3.96GHZ</td>
+            <td>220</td>
+            <td>N/A</td>
+            <td>NICEHASH MINER</td>
+            <td>default</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 6600K @3800MHZ (NON-OC)</td>
+            <td>220</td>
+            <td>91 W</td>
+            <td>FIREICE-UK/XMR-STAK-CPU</td>
+            <td>"cpu_thread_num":3, "low_power_mode":false, vm.nr_</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5 2670</td>
+            <td>220</td>
+            <td>115 W</td>
+            <td>NICEHASH MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX 8350</td>
+            <td>220</td>
+            <td>125 W</td>
+            <td>MINERGATE V6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-6100</td>
+            <td>220</td>
+            <td>95 W</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>-t 6</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4790K</td>
+            <td>216</td>
+            <td>N/A</td>
+            <td>XMR STAK CPU NOTLS</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6600K @ 4.2GHZ</td>
+            <td>215</td>
+            <td>91 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>-t 3</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7 2600K</td>
+            <td>215</td>
+            <td>N/A</td>
+            <td>MINERGATE X64</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7 4800MQ @ 2.70GHZ</td>
+            <td>215</td>
+            <td>47 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E3-1220 V2 @ 3.10GHZ</td>
+            <td>212</td>
+            <td>N/A</td>
+            <td>MINERGATE-CLI</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 6600K @3800MHZ (NON-OC)</td>
+            <td>210</td>
+            <td>91 W</td>
+            <td>WOLF9466/CPUMINER-MULTI</td>
+            <td>(non-root) (vm.nr_hugepages=9) -t 3</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 6600K @3800MHZ (NON-OC)</td>
+            <td>210</td>
+            <td>91 W</td>
+            <td>WOLF9466/CPUMINER-MULTI</td>
+            <td>(root) (vm.nr_hugepages=9) -t 3</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 8320 4GHZ</td>
+            <td>210</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-4770HQ 2.20GHZ</td>
+            <td>210</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>I5-7600</td>
+            <td>209</td>
+            <td>65 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>A8 7650K (OC 4.4GHZ)</td>
+            <td>207</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>2t (aff #0, #2)</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>DUAL X5450</td>
+            <td>205</td>
+            <td>N/A</td>
+            <td>CPUMINER</td>
+            <td>N/A</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-4790K</td>
+            <td>205</td>
+            <td>N/A</td>
+            <td>MINERGATE CONSOLE CLIENT</td>
+            <td>-t 8</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-4570</td>
+            <td>205</td>
+            <td>84 W</td>
+            <td>XMR-STAK-CPU 1.1.0</td>
+            <td>3 threads, no_prefetch, no affinity to cpu cores</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5-3470</td>
+            <td>202</td>
+            <td>77 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>-t 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX 4100</td>
+            <td>200</td>
+            <td>100 W</td>
+            <td>CLAYMORE CRYPTONOTE</td>
+            <td>oc 4300</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5 - 6600</td>
+            <td>200</td>
+            <td>65 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>XEON 5675</td>
+            <td>200</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 6700K @4GHZ</td>
+            <td>200</td>
+            <td>N/A</td>
+            <td>NICEHASH 1.7.5.10</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4460</td>
+            <td>200</td>
+            <td>84 W</td>
+            <td>XMRIG</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-4570</td>
+            <td>196</td>
+            <td>84 W</td>
+            <td>YAM-M8A</td>
+            <td>threads = 3 av=1</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7 2600K @ 4.5GHZ</td>
+            <td>195</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER</td>
+            <td>threads: 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX 4100</td>
+            <td>195</td>
+            <td>95 W</td>
+            <td>CLAYMORE</td>
+            <td>oc 4250</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6600 @ 3.3GHZ</td>
+            <td>193</td>
+            <td>65 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>3 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4720HQ</td>
+            <td>193</td>
+            <td>47 W</td>
+            <td>XMR-STAK-CPU 1.1</td>
+            <td>3 threads, cpu affine: #0, #2, #4</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON X5672</td>
+            <td>190</td>
+            <td>N/A</td>
+            <td>MINERD</td>
+            <td>on esxi with 4 threads</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX6300</td>
+            <td>188</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER 3.5</td>
+            <td>-t 5</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5-3570</td>
+            <td>182</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER 3 CORES</td>
+            <td>N/A</td>
+            <td>XUBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E3 1260L</td>
+            <td>180</td>
+            <td>29 W</td>
+            <td>CLAYMORE CPU MINER 3.5</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64( MONITORED BY AIDA64)</td>
+          </tr>
+          <tr>
+            <td>I7 4770</td>
+            <td>180</td>
+            <td>43 W</td>
+            <td>CPUMINER_OPT</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4460</td>
+            <td>180</td>
+            <td>84 W</td>
+            <td>CLAYMORE CPU MINER 3.5(RUN AS ADMIN)</td>
+            <td>-t3</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-7700K (STOCK, RAM @ 3.2GHZ)</td>
+            <td>180</td>
+            <td>91 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA POOL</td>
+            <td>-t 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5 3330 3.0 GHZ</td>
+            <td>175</td>
+            <td>77 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER </td>
+            <td>-t3</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>FX 6300 VISHERA</td>
+            <td>175</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>6 cores</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD ATHLON X4 860K</td>
+            <td>175</td>
+            <td>95 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX-8350</td>
+            <td>175</td>
+            <td>125 W</td>
+            <td>MINERGATE V6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I 5 3470</td>
+            <td>173</td>
+            <td>77 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V 3.5 BETA</td>
+            <td>173 - max. average is 150</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 2500</td>
+            <td>173</td>
+            <td>95 W</td>
+            <td>MONEROD</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 4300 3800MHZ</td>
+            <td>172</td>
+            <td>N/A</td>
+            <td>WOLF MULTI</td>
+            <td>3 threads</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-2400 @ 3.1 GHZ</td>
+            <td>170</td>
+            <td>N/A</td>
+            <td>CPUMINER-OPT V-3.4.6</td>
+            <td>3 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>E3-1225V3</td>
+            <td>170</td>
+            <td>80 W</td>
+            <td>OPT 3.4.6</td>
+            <td>t -4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX-4300</td>
+            <td>164</td>
+            <td>65 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-6820HK CPU @ 3.35G</td>
+            <td>160</td>
+            <td>20 W</td>
+            <td>CPUMINER-OPT 3.4.4</td>
+            <td>cpuminer-core-avx2.e</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD A8-7650K</td>
+            <td>160</td>
+            <td>95 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>2 threads, cpu affine: #0, #2</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>E3-1225 V3</td>
+            <td>160</td>
+            <td>40 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>vm limited at 9ghz</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>SKYLAKE I7 6700K 4.0GHZ</td>
+            <td>160</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD A10-6700</td>
+            <td>156</td>
+            <td>65 W</td>
+            <td>MINERGATE 2.09</td>
+            <td>N/A</td>
+            <td>XUBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>I7 3610QM</td>
+            <td>155</td>
+            <td>45 W</td>
+            <td>XMR-STACK-CPU</td>
+            <td>"cpu_thread_num" : 3,"cpu_threads_conf" : [ { "l</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD FX 4350</td>
+            <td>154</td>
+            <td>95 W</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7 2630QM @2.00GHZ</td>
+            <td>154</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER V3.5 BETA</td>
+            <td>-t 3</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-6500TE</td>
+            <td>153</td>
+            <td>35 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>cpu_num_thread=3</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-2500K @ 3.30 GHZ</td>
+            <td>150</td>
+            <td>N/A</td>
+            <td>CPUMINER OPT 3.4.7</td>
+            <td>3 threads (overclocked to 4.3 ghz)</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-2600K</td>
+            <td>150</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>FX 4300</td>
+            <td>150</td>
+            <td>95 W</td>
+            <td>CLAYMORE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON CPU (HASWELL, NO TSX) 4X2.4GHZ</td>
+            <td>150</td>
+            <td>N/A</td>
+            <td>NICEHASH MINER</td>
+            <td>default</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>XEON E5-2620V3 2.4GHZ</td>
+            <td>150</td>
+            <td>N/A</td>
+            <td>NICEHASH V1.7.3.10</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5-1630 V4 @ 3.7GHZ</td>
+            <td>150</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 4770</td>
+            <td>150</td>
+            <td>85 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) CORE(TM) I5-2500 CPU @ 3.30GHZ</td>
+            <td>150</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER-MULTI</td>
+            <td>t=3</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7 4700MQ</td>
+            <td>150</td>
+            <td>33 W</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-3720QM</td>
+            <td>150</td>
+            <td>45 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-3470S</td>
+            <td>149</td>
+            <td>65 W</td>
+            <td>CPUMINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>XEON X5675</td>
+            <td>148</td>
+            <td>85 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-6700K 4.2GHZ</td>
+            <td>148</td>
+            <td>95 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7 4910MQ</td>
+            <td>141</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7 2600K @ 3.4GHZ</td>
+            <td>140</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>threads: 4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6600K @ 4.5GHZ</td>
+            <td>140</td>
+            <td>91 W</td>
+            <td>WOLF CPU MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-2860QM</td>
+            <td>140</td>
+            <td>55 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>FX-6300</td>
+            <td>137</td>
+            <td>89 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6600K @ 4.5GHZ</td>
+            <td>136</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA</td>
+            <td>-t 3</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4790K HASWELL</td>
+            <td>135</td>
+            <td>68 W</td>
+            <td>CPUMINER-MULTI-WOLF-05-30-2014</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 6600K</td>
+            <td>135</td>
+            <td>91 W</td>
+            <td>WOLF9466/CPUMINER-MULTI</td>
+            <td>(non-root) (vm.nr_hugepages=0) -t 3</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>FX6300</td>
+            <td>135</td>
+            <td>95 W</td>
+            <td>MINERGATE 6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) PROCESSOR E3-1275 (8M CACHE, 3.40 GHZ)</td>
+            <td>132</td>
+            <td>95 W</td>
+            <td>CPUMINER-OPT-SANDYBRIDGE 3.3.8</td>
+            <td>-t 4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-4690K</td>
+            <td>130</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>(paravirtualized debian under qubes)</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6600K @ 4.5GHZ</td>
+            <td>129</td>
+            <td>N/A</td>
+            <td>MONEROD</td>
+            <td>4 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I3 4360</td>
+            <td>128</td>
+            <td>54 W</td>
+            <td>WOLF</td>
+            <td>2 threads, worksize 16</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4570S CPU @ 2.90GHZ</td>
+            <td>126</td>
+            <td>N/A</td>
+            <td>WOLF0 XMR CPUMINER</td>
+            <td>-t 2</td>
+            <td>XUBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7-3770K</td>
+            <td>126</td>
+            <td>N/A</td>
+            <td>MINERD</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-4670 @ 3.40GHZ</td>
+            <td>125</td>
+            <td>84 W</td>
+            <td>CPUMINER BY WOLF</td>
+            <td>-t 3</td>
+            <td>UBUNTU 14.04 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4700MQ</td>
+            <td>124</td>
+            <td>N/A</td>
+            <td>NSCPUCNMINER64.EXE</td>
+            <td>-t 3</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL E5-2620</td>
+            <td>121</td>
+            <td>N/A</td>
+            <td>TPRUVOT CPUMINER</td>
+            <td>threads: 12</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5 3470 (3 CORES)</td>
+            <td>121</td>
+            <td>77 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.2 BETA</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4430</td>
+            <td>120</td>
+            <td>N/A</td>
+            <td>WOLF MINER</td>
+            <td>-t 2</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>I5 2500K</td>
+            <td>120</td>
+            <td>N/A</td>
+            <td>CPUMINER_OPT_AVE_AES</td>
+            <td>-t 2</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4440 3.1GHZ</td>
+            <td>120</td>
+            <td>N/A</td>
+            <td>NICEHASH V1.7.3.10</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6400</td>
+            <td>120</td>
+            <td>65 W</td>
+            <td>XMR-STACK</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5 6600K OC 4.2 GHZ</td>
+            <td>120</td>
+            <td>90 W</td>
+            <td>NICEHASH</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>A8 7600</td>
+            <td>120</td>
+            <td>65 W</td>
+            <td>MINERGATE 6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5620</td>
+            <td>116</td>
+            <td>80 W</td>
+            <td>MINERGATE V.6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS SERVER 2008 R2</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 6600K @3800MHZ (NON-OC)</td>
+            <td>110</td>
+            <td>91 W</td>
+            <td>WOLF9466/CPUMINER-MULTI (WINDOWS 10 / CYGWIN64)</td>
+            <td>-t2</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6500 3.2GHZ</td>
+            <td>110</td>
+            <td>N/A</td>
+            <td>NICEHASH V1.7.3.7</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7 6700HQ</td>
+            <td>106</td>
+            <td>45 W</td>
+            <td>WOLF CPUMINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 4570</td>
+            <td>106</td>
+            <td>84 W</td>
+            <td>MINERGATE V.6.6</td>
+            <td>cpu cores: 3</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7 2600</td>
+            <td>105</td>
+            <td>91 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7-2600</td>
+            <td>105</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>DUAL INTEL XEON L5420</td>
+            <td>103</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.4 BETA - POOL</td>
+            <td>-t 8</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7 6700HQ</td>
+            <td>102</td>
+            <td>45 W</td>
+            <td>MINERGATE 6.6</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>2,3 GHZ INTEL CORE I7</td>
+            <td>100</td>
+            <td>N/A</td>
+            <td>MONEROD</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>I5-3570 3.4GHZ</td>
+            <td>100</td>
+            <td>N/A</td>
+            <td>NICEHASH V1.7.3.10</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-2500 @ 3.30GHZ</td>
+            <td>100</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7-6700HQ</td>
+            <td>100</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7-4710HQ</td>
+            <td>100</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) CORE(TM) I7-2670QM CPU @ 2.20GHZ</td>
+            <td>97</td>
+            <td>N/A</td>
+            <td>CPUMINER-MULTI</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5-2320 3.00 GHZ</td>
+            <td>90</td>
+            <td>N/A</td>
+            <td>MINERGATE 6.6 - 64BIT</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>E5-2660V2</td>
+            <td>90</td>
+            <td>N/A</td>
+            <td>STAK CPU MINER</td>
+            <td>-lowpowermode:true , disableprefetch:false, thread</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I7-4710HQ</td>
+            <td>90</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I7 6700HQ 2.6GHZ (LAPTOP)</td>
+            <td>87</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5 BETA - POOL</td>
+            <td>4 threads</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4200M</td>
+            <td>84</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU 3.5</td>
+            <td>-t3 (run as admin)</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON D-1520</td>
+            <td>83</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER</td>
+            <td>threads: 3</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>I7-950</td>
+            <td>83</td>
+            <td>130 W</td>
+            <td>CPUMINER-MULTI</td>
+            <td>using 8 threads</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>D-1521</td>
+            <td>82</td>
+            <td>N/A</td>
+            <td>WOLF MINER</td>
+            <td>-t 4</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL E3-1225</td>
+            <td>80</td>
+            <td>N/A</td>
+            <td>TPRUVOT CPUMINER</td>
+            <td>threads: 4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL XEON E5440</td>
+            <td>79</td>
+            <td>N/A</td>
+            <td>XMR STAK CPU</td>
+            <td>default</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5 3320M</td>
+            <td>78</td>
+            <td>45 W</td>
+            <td>XMR-STAK-CPU</td>
+            <td>2 threads, large pages enabled, set 1 thread affin</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>A6-7400K + GPU R3 128 BIT OC</td>
+            <td>75</td>
+            <td>70 W</td>
+            <td>OPT 3.4.6</td>
+            <td>-t 1</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD ATHLON II X4 740 3.2GHZ</td>
+            <td>75</td>
+            <td>N/A</td>
+            <td>SOFT - CLAYMORE, POOL - MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5 6300 HQ</td>
+            <td>75</td>
+            <td>25 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2660 V4 @ 2.00GHZ L3 35MB</td>
+            <td>74</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>thread: 1</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2683 V3 @ 2.00GHZ L3 35MB</td>
+            <td>73</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>thread: 1</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-2400</td>
+            <td>70</td>
+            <td>N/A</td>
+            <td>MINERGATE V6.6 X64</td>
+            <td>all cores</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-4660 CPU @ 3.320GHZ</td>
+            <td>70</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD PHENOM II X4 940</td>
+            <td>66</td>
+            <td>N/A</td>
+            <td>YAM-YVG1900-M8A-WIN64-GENERIC</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I5 3230M</td>
+            <td>65</td>
+            <td>35 W</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER V3.5</td>
+            <td>-t 3</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>AMD A10 5800K</td>
+            <td>63</td>
+            <td>100 W</td>
+            <td>CPUMINER-OPT-3.6.3</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I3-4130 @ 3.4GHZ</td>
+            <td>60</td>
+            <td>54 W</td>
+            <td>WOLF CPU MINER</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE 2 QUAD Q6600</td>
+            <td>60</td>
+            <td>71 W</td>
+            <td>MINERGATE (AEON)</td>
+            <td>2.8ghz</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) ATOM(TM) CPU C2750</td>
+            <td>60</td>
+            <td>35 W</td>
+            <td>CPUMINER-OPT 3.5.8</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) XEON(R) CPU E5-2650L V3 @ 1.80GHZ L3 30MB</td>
+            <td>59</td>
+            <td>N/A</td>
+            <td>XMR-STAK-CPU</td>
+            <td>thread: 1</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE2QUAD Q9450 (NO AES-NI</td>
+            <td>58</td>
+            <td>N/A</td>
+            <td>CLAYMORE CRYPTONOTE CPU MINER </td>
+            <td>threads: 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>C2D E7500 OC AT 3.8GHZ</td>
+            <td>58</td>
+            <td>80 W</td>
+            <td>OPT 3.4.6</td>
+            <td>-t 2</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I7 6600U</td>
+            <td>55</td>
+            <td>15 W</td>
+            <td>MINERGATE 64 BIT</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL PENTIUM G4560</td>
+            <td>54</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU V3.4</td>
+            <td>-t 2</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 3230M</td>
+            <td>52</td>
+            <td>N/A</td>
+            <td>WOLF CPUMINER</td>
+            <td>threads: 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD ATHLON X4 860K</td>
+            <td>52</td>
+            <td>N/A</td>
+            <td>MINERGATE GUI</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5 2410M</td>
+            <td>52</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>C2D E8400</td>
+            <td>50</td>
+            <td>65 W</td>
+            <td>OPT 3.4.6</td>
+            <td>-t 2</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL(R) CORE(TM) I7-3770 CPU @ 3.40GHZ</td>
+            <td>50</td>
+            <td>N/A</td>
+            <td>MINERGATE (ONE CORE IS 50H/S) (MAX 8 CORES)</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL I3-4130T</td>
+            <td>50</td>
+            <td>35 W</td>
+            <td>CPUMINER-OPT</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I5-2400S</td>
+            <td>50</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-650</td>
+            <td>46</td>
+            <td>73 W</td>
+            <td>CPUMINER-MULTI 1.2-DEV</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I5-6200U</td>
+            <td>45</td>
+            <td>15 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL PENTIUM CPU G3250</td>
+            <td>45</td>
+            <td>N/A</td>
+            <td>CPUMINER-MULTI (BY WOLF)</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5-7200U @ 2500GHZ</td>
+            <td>45</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I3-3210M</td>
+            <td>45</td>
+            <td>N/A</td>
+            <td>MINERGATE GUI</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE 2 DUO T9500</td>
+            <td>43</td>
+            <td>35 W</td>
+            <td>CPUMINER-OPT-3.6.3</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL E8600</td>
+            <td>41</td>
+            <td>65 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 2520M</td>
+            <td>40</td>
+            <td>35 W</td>
+            <td>MINERD</td>
+            <td>-t 4</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I5 4200U</td>
+            <td>40</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CELERON G3920</td>
+            <td>39</td>
+            <td>52 W</td>
+            <td>MINERGATE CONSOLE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>I7 950</td>
+            <td>38</td>
+            <td>N/A</td>
+            <td>MINERD-WOLF-07-09-14</td>
+            <td>N/A</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>I5-M520</td>
+            <td>38</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU MINER</td>
+            <td>t4</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL G3900</td>
+            <td>36</td>
+            <td>N/A</td>
+            <td>CLAYMORE CPU 3.5</td>
+            <td>-t 1</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE I3 550</td>
+            <td>35</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>QUADCORE AMD A6-3620, 2272 MHZ</td>
+            <td>33</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>I3-3220</td>
+            <td>31</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CELERON G1610</td>
+            <td>29</td>
+            <td>N/A</td>
+            <td>CPUMINER-MULTI (BY WOLF)</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CELERON G1840</td>
+            <td>29</td>
+            <td>N/A</td>
+            <td>CPUMINER-MULTI (BY WOLF)</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL PENTIUM G2010</td>
+            <td>26</td>
+            <td>55 W</td>
+            <td>MINERGATE GUI</td>
+            <td>2 core running</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL PENTIUM G630</td>
+            <td>26</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD ATHLON 7850</td>
+            <td>24</td>
+            <td>N/A</td>
+            <td>CLAYMORE 3.5 BETA</td>
+            <td>N/A</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL PENTIUM D 3.40 GHZ</td>
+            <td>20</td>
+            <td>N/A</td>
+            <td>CPUMINER-MULTI (WOLF)</td>
+            <td>-a cryptonight -t 2</td>
+            <td>DEBIAN 8 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE 2 DUO E6550 @2.33GHZ</td>
+            <td>19</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL E8400</td>
+            <td>19</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>AMD OPTERON 6276</td>
+            <td>16</td>
+            <td>500 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>E5200</td>
+            <td>15</td>
+            <td>15 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS SERVER 2008 R2</td>
+          </tr>
+          <tr>
+            <td>AMD A4 6300 (1 CORE)</td>
+            <td>15</td>
+            <td>65 W</td>
+            <td>MINERGATE</td>
+            <td>1 core (14-17 hash/sec)</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD A4 6300 (1 CORE)</td>
+            <td>15</td>
+            <td>65 W</td>
+            <td>MINERGATE</td>
+            <td>1 core (14-17 hash/sec)</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CELERON N2840</td>
+            <td>14</td>
+            <td>15 W</td>
+            <td>MONEROD</td>
+            <td>2 cores</td>
+            <td>UBUNTU 16.04 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE DUO T2400 1.83 GHZ</td>
+            <td>11</td>
+            <td>31 W</td>
+            <td>CPUMINER-MULTI 1.3.2 BY TPRUVOT@GITHUB</td>
+            <td>-t 2, ubuntu 17.10 64 bit with liquorix kernel</td>
+            <td>UBUNTU 16.10 x64</td>
+          </tr>
+          <tr>
+            <td>AMD APU A4-3400</td>
+            <td>10</td>
+            <td>65 W</td>
+            <td>CLAYMORE 3.5</td>
+            <td>2.2ghz@1.08v, 8h/s</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL CORE 2 QUAD</td>
+            <td>10</td>
+            <td>N/A</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 10 x64</td>
+          </tr>
+          <tr>
+            <td>PENTIUM 4 630</td>
+            <td>10</td>
+            <td>89 W</td>
+            <td>MINERGATE</td>
+            <td>N/A</td>
+            <td>WINDOWS 7 x64</td>
+          </tr>
+          <tr>
+            <td>INTEL PENTIUM T2330 1.6 GHZ</td>
+            <td>10</td>
+            <td>35 W</td>
+            <td>CPUMINER-OPT 3.5.9.1</td>
+            <td>-t 2</td>
+            <td>WINDOWS 8.1 x64</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+  <br/>
+  <p>Some benchmarks have been added from this source: https://docs.google.com/spreadsheets/d/1RqXRS9d9GqLHUrvXXu_0Mxce-0kHSI63fjSgqYpXUU0/edit#gid=0</p>
+</article>
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'common/layout.html' %} {% block body %}
+
+<div>
+  <div class="container center">
+    <h4>Monero Mining Benchmarks</h2>
+      <p>Data is aggregated from monerobechmarks.byethost5.com</p>
+      <p>Donations are welcome and will help pay for hosting and keeping data up to date.</p>
+      <p>47XjtRPkZ5sRpCYTGEnTrMdwu8vKXRyHP6AZujQQf4nHHwRxpqnhSm7VJ7co1poaVe3fx1sdUW6Lo5GWDy1xBYizR6DFCQP</p>
+      <div class="row">
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <a href="/benchmarks/gpu">
+              <img class="gpu-image" src="/assets/images/gpu-image.png">
+              </a>
+            </div>
+            <div class="card-action">
+              <a href="/benchmarks/gpu">View GPU Benchmarks</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6">
+          <div class="card">
+            <div class="card-image">
+              <a href="/benchmarks/cpu">
+                <img class="cpu-image" src="/assets/images/cpu-image.jpg">
+              </a>
+            </div>
+            <div class="card-action">
+              <a href="/benchmarks/cpu">View CPU Benchmarks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+{% endblock %}
