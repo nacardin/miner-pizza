@@ -4,8 +4,9 @@
   "description": "miner-pizza web interface",
   "main": "index.js",
   "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch"
+    "build": "gulp clean && gulp build",
+    "watch": "gulp watch",
+    "start": "gulp clean && gulp build && http-server dist"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "gulp-nunjucks": "^3.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
+    "http-server": "^0.10.0",
     "materialize-css": "^0.98.2",
     "mkdirp": "^0.5.1"
   }

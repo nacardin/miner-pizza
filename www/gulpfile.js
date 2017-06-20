@@ -8,7 +8,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 const async = require('async');
 
-gulp.task('default', ['clean', 'build']);
+gulp.task('default', ['build']);
 
 gulp.task('watch', ['build'], () => {
   browserSync.init({
@@ -58,6 +58,11 @@ gulp.task('build', (done) => {
     (done) => {
       gulp.src('src/static/**')
         .pipe(gulp.dest('dist/'))
+        .on('end', done);
+    },
+    (done) => {
+      gulp.src('node_modules/materialize-css/fonts/**')
+        .pipe(gulp.dest('dist/fonts'))
         .on('end', done);
     },
     (done) => {

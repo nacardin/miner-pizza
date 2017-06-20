@@ -1,8 +1,5 @@
-.gpu-image {
-  padding: 30px;
-  height: 440px;
-}
-
-.cpu-image {  width: 100%;
-  padding: 97px 30px;
+.gpu-image, .cpu-image {
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
 }
